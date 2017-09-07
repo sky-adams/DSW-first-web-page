@@ -2,14 +2,20 @@
 <html>
  <head>
    <title>Example web page</title>
+   <link rel="stylesheet" type="text/css" href="mystyle.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="myscript.js"></script>
  </head>
  <body>
-   <h1>Hello, World</h1>
-   <p>
+   <h1 id="h1">Hello, World</h1>
+   <p id="p1">
      Welcome to my web page.  This
      web page is a demonstration of
      HTML.
    </p>
-   <img src="laser-radial.jpg" alt="Laser Radial sailboat">
+   <p id="p2" class="disappear">This is the second paragraph.</p>
+   <p class="disappear">This is the third paragraph.</p>
+   <p id="imagetoggler">Click to show image.</p>
+   <img src="laser-radial.jpg" alt="Laser Radial sail boat">
  </body>
 </html>
